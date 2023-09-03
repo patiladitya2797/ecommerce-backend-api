@@ -21,8 +21,8 @@ class Login:
         return False
 
 login = Login()
-login.add_user('Ganesh', 'password@123')
-login.add_user('Stevewaugh', 'passw0rd!')
+login.add_user('Aditya', 'password@123')
+login.add_user('billgates', 'passw0rd!')
 # Loign Page 
 class UserSession:
     def __init__(self):
