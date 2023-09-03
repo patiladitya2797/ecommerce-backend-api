@@ -37,8 +37,8 @@ p1 = Product("Product 1", "34567890", "Brand 1", "This is sample description", 2
 p2 = Product("Product 2", "4567890", "Brand 2", "This is sample description", 100, False)
 
 # Purchased users 
-u1 = User("Ganesh", "Ganeshprasanna@example.com", "password@123")
-u2 = User("Steve", "stevewaugh@example.com", "passwOrd123")
+u1 = User("Aditya", "patiladitya@example.com", "password@123")
+u2 = User("Bill", "billgates@example.com", "passwOrd123")
 
 # Ganesh purchases Product 1
 u1.purchase_product(p1)
@@ -89,7 +89,7 @@ p1 = Product("Product 1", "34567890", "Brand 1", "This is sample description", 2
 p2 = Product("Product 2", "4567890", "Brand 2", "This is sample description", 100, False)
 
 # Create some users
-u1 = User("Steve", "Steve@example.com", "password")
+u1 = User("bill", "bill@example.com", "password")
 u2 = User("Bob", "bob@example.com", "password")
 
 # Alice purchases Product 1
