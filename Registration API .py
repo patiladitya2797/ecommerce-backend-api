@@ -27,8 +27,8 @@ class Registration:
         return False
 
 registration = Registration()
-registration.add_user('Ganesh', 'Prasanna', 'Ganeshprasanna@example.com', 'Password@123')
-registration.add_user('Steve', 'waugh', 'stevewaugh@example.com', 'passw0rd!')
+registration.add_user('Aditya', 'Patil', 'patiladitya@example.com', 'Password@123')
+registration.add_user('Bill', 'Gates', 'billgates@example.com', 'passw0rd!')
 
 class UserSession:
     def __init__(self):
