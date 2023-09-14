@@ -40,13 +40,13 @@ p2 = Product("Product 2", "4567890", "Brand 2", "This is sample description", 10
 u1 = User("Aditya", "patiladitya@example.com", "password@123")
 u2 = User("Bill", "billgates@example.com", "passwOrd123")
 
-# Ganesh purchases Product 1
+# aditya purchases Product 1
 u1.purchase_product(p1)
-# steve  tries to leave a review for Product 1 (but hasn't purchased it)
+# bill  tries to leave a review for Product 1 (but hasn't purchased it)
 p1.add_review(u2, 4, "Great product!")  
 #Returns "You must purchase this product before leaving a review."
 
-# Ganesh leaves a review for Product 1
+# aditya leaves a review for Product 1
 p1.add_review(u1, 5, "Awesome product!")  # Returns "Review added successfully."
 class Product:
     def __init__(self, name, barcode, brand, description, price, available):
